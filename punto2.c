@@ -58,6 +58,7 @@ int main()
 
     //liberar memoria de la lista
     LimpiarTarea(&lista);
+    LimpiarTarea(&tareasRalizadas);
 
     return 0;
 }
